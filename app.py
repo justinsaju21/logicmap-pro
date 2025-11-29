@@ -280,7 +280,7 @@ def show_homepage():
     # Logo
     col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
-        st.image("C:/Users/justi/.gemini/antigravity/brain/a9aa5f87-8f95-4f13-aba9-b808c2d661c9/logic_map_pro_logo_1764410271837.png", use_container_width=True)
+        st.image("logo.png", use_container_width=True)
     
     st.markdown('<h1 class="main-title">LogicMap Pro</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Professional Karnaugh Map Solver & Visualizer</p>', unsafe_allow_html=True)
@@ -370,7 +370,7 @@ def show_solver():
     # Logo (Smaller)
     col1, col2, col3 = st.columns([2, 1, 2])
     with col2:
-        st.image("C:/Users/justi/.gemini/antigravity/brain/a9aa5f87-8f95-4f13-aba9-b808c2d661c9/logic_map_pro_logo_1764410271837.png", width=100)
+        st.image("logo.png", width=100)
         
     st.markdown('<h1 class="main-title">LogicMap Pro Solver</h1>', unsafe_allow_html=True)
     
